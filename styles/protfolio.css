@@ -1,0 +1,248 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  /* margin: 0px;
+  padding: 0px; */
+}
+
+.btn-primary{
+    border: 0px;
+    width: 160px;
+    height: 64px;
+    padding: 20px 26px;
+    border-radius: 5px;
+    background: #F15B22;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+
+.btn-secondery{
+    border: 0px;
+    width: 170.106px;
+    height: 64px;
+    padding: 20px 36px;
+    border-radius: 8px;
+    background: #FFF;
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+/* header section  */
+.header{
+    background-image: url("../images/banner/banner2.png");
+    width: 100%;
+    min-height: 809px;
+    background-size: cover;
+    /* height: 809px; */
+    margin: 0px;
+    background-color: #C2C7CA;
+    background-repeat: no-repeat;
+    display: flex;
+    text-align: right;
+    justify-content: end;
+    align-items: center;
+
+}
+
+.header-section{
+    /* margin-top: 14%; */
+    height: fit-content;
+    max-width:525px;
+    text-align: right;
+    padding-right: 200px;
+}
+
+.grettings{
+    color: #151414;
+    text-align: right;
+    font-size: 65px;
+    font-weight: 700;   
+    margin-top: 0px;
+}
+
+.grettings-detils{
+    color: #444343;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+/* my-failures section  */
+.my-failures{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    padding: 0px 230px;
+    margin-top: 150px ;
+}
+
+
+.tittle{
+    color: #151414;
+font-size: 40px;
+font-weight: 700;
+margin-bottom: 24px;
+}
+
+.tittle-detail{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+.list{
+    list-style: none;
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+/* plan section */
+.my-plan{
+    margin-bottom: 120px;
+}
+
+.section-tittle{
+    color: #151414;
+font-size: 40px;
+font-weight: 700;
+text-align: center;
+margin-top: 130px;
+padding: 0px 230px;
+margin-bottom: 50px;
+}
+
+.plans-continer{
+    display: flex;
+    gap: 60px;
+    justify-content: space-around;
+    padding: 0px 230px;
+    align-items: center;
+}
+
+.plan{
+    text-align: center;
+    width: 250px;
+}
+
+.icon{
+    width: 92.958px;
+    height: 92.958px;
+    margin-bottom: 30px;
+}
+
+.plan-tittle{
+    color: #151414;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.sub-tittle{
+    color: #737272;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.call-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* color: white; */
+    margin-bottom: 100px;
+}
+.img-container{
+    position: relative;
+}
+.gradient3{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.call-tittle{
+    /* background-image: url(../images/gradient3.png); */
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  margin-bottom: 100px;
+  text-align: left;
+}
+.tittle{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    width: 560px;
+
+
+}
+
+/* footer section  */
+footer{
+    background-color: #151414;
+    display: flex;
+    gap: 100px;
+    padding: 130px 230px;
+}
+
+.colmon-tittle{
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.colmon-detail{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 485px;
+    margin-bottom: 24px;
+}
+
+.social-link{
+    display: flex;
+    align-items:center ;
+    gap: 24px;
+}
+
+.contact input{
+    width: 325px;
+    height: 64px;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    padding: 0px 16px;
+    color: #151414;
+    width: 100%;
+    background-color: transparent;
+}
+.contact input:focus{
+        
+        border-color: white;
+}
+
+.email{
+    margin-bottom: 16px;
+    border: 1px;
+    border-color: #151414   ;
+}
